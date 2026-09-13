@@ -8,8 +8,8 @@ type Lesson = { tag: string; category: string; title: string; text: string; step
 
 const videoFolder = "/videos/";
 const lessons: Lesson[] = [
-  { tag: "หมวด 02", category: "ChatGPT เพื่อสร้างเนื้อหา", title: "สร้าง Storyboard ด้วย ChatGPT", text: "เรียนรู้การใช้ ChatGPT เปลี่ยนไอเดียให้เป็น Storyboard และโครงเรื่องที่พร้อมผลิต", steps: ["กำหนดเป้าหมายของเนื้อหา", "เขียน Prompt ให้ชัดเจน", "ปรับผลลัพธ์เป็น Storyboard"], icon: Bot, color: "from-violet-400 to-purple-700", video: "สอนใช้ ChatGPT สร้าง Storyboard ง่าย ๆ ในไม่กี่ขั้นตอน (1).mp4" },
-  { tag: "หมวด 03", category: "Canva AI และ CapCut AI", title: "ออกแบบจากไอเดียสู่ผลงานด้วย Canva", text: "ออกแบบกราฟิกสำหรับสื่อดิจิทัลอย่างง่าย พร้อมแนวคิดนำไปปรับใช้กับงานของคุณ", steps: ["รวบรวมไอเดียและเลือกเทมเพลต", "จัดวางภาพ ข้อความ และสี", "ส่งออกผลงานตามแพลตฟอร์ม"], icon: Palette, color: "from-blue-400 to-indigo-700", video: "ออกแบบง่าย ๆ ด้วย Canva  จากไอเดียสู่ผลงาน.mp4" },
+  { tag: "หมวด 01", category: "ChatGPT เพื่อสร้างเนื้อหา", title: "สร้าง Storyboard ด้วย ChatGPT", text: "เรียนรู้การใช้ ChatGPT เปลี่ยนไอเดียให้เป็น Storyboard และโครงเรื่องที่พร้อมผลิต", steps: ["กำหนดเป้าหมายของเนื้อหา", "เขียน Prompt ให้ชัดเจน", "ปรับผลลัพธ์เป็น Storyboard"], icon: Bot, color: "from-violet-400 to-purple-700", video: "สอนใช้ ChatGPT สร้าง Storyboard ง่าย ๆ ในไม่กี่ขั้นตอน (1).mp4" },
+  { tag: "หมวด 02", category: "Canva AI และ CapCut AI", title: "ออกแบบจากไอเดียสู่ผลงานด้วย Canva", text: "ออกแบบกราฟิกสำหรับสื่อดิจิทัลอย่างง่าย พร้อมแนวคิดนำไปปรับใช้กับงานของคุณ", steps: ["รวบรวมไอเดียและเลือกเทมเพลต", "จัดวางภาพ ข้อความ และสี", "ส่งออกผลงานตามแพลตฟอร์ม"], icon: Palette, color: "from-blue-400 to-indigo-700", video: "ออกแบบง่าย ๆ ด้วย Canva  จากไอเดียสู่ผลงาน.mp4" },
   { tag: "หมวด 03", category: "Canva AI และ CapCut AI", title: "สร้างเสียงและตัดต่อวิดีโอด้วย CapCut AI", text: "ใช้ความสามารถของ AI เพื่อช่วยสร้างเสียง ตัดต่อ และทำวิดีโอให้น่าสนใจยิ่งขึ้น", steps: ["นำเข้าคลิปและเลือกอัตราส่วน", "สร้างเสียงหรือคำบรรยายด้วย AI", "ตรวจทานและส่งออกวิดีโอ"], icon: Film, color: "from-fuchsia-400 to-violet-700", video: "การใช้งาน CapCut AI สำหรับการสร้างเสียงและตัดต่อวิดีโอ.mp4" },
 ];
 
